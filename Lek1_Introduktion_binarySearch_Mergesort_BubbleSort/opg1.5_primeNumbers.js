@@ -1,3 +1,4 @@
+// Opgave 1.5* Lav et program, der udskriver alle primtal op til og med et givet positivt heltal.
 function nextPrime(value) {
     if (value > 2) {
         let i, q;

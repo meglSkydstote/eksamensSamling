@@ -1,4 +1,8 @@
 // Merge Sort Implentation (Recursion)
+
+// Opgave 1.4 Lav en udgave af flettealgoritmen (totalfletning) fra første semester, hvor to sorterede arrays med talflettes sammen. 
+// Udskriv resultatet med console.log. Indsæt i enden af et array med metoden push()
+
 function mergeSort(unsortedArray) {
     if (unsortedArray.length <= 1) {
         return unsortedArray
