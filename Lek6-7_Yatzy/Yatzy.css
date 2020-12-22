@@ -1,0 +1,86 @@
+#diceTable {
+    background-color: Ivory;
+    border: 1px solid rgb(180, 169, 71);
+    padding: 10px;
+    margin: 5px;
+}
+
+#dice1, #dice2, #dice3, #dice4, #dice5 {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+
+button:disabled {
+    background-color: #f3f5de59;
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    cursor: pointer;
+    color: #dcd8d8;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 40px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+    pointer-events: none;
+}
+
+#newGameButton{
+    margin: 0px 0px 0px 120px;
+}
+
+#RollButton {
+        box-shadow:inset 0px 1px 0px 0px #ffffff;
+        background-color:#ededed;
+        border-radius:6px;
+        border:1px solid #dcdcdc;
+        cursor:pointer;
+        color:#777777;
+        font-family:Arial;
+        font-size:15px;
+        font-weight:bold;
+        padding:10px 40px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #ffffff;
+        outline:none;
+}
+
+button:hover {
+    background-color:#f3f5de;
+}
+
+input{
+    width: 25px;
+}
+
+.fiveArea{
+    grid-column: span 5;
+}
+
+.threeArea {
+    grid-column: span 3;
+}
+
+.lockedTrue {
+    background-color:lightsteelblue;
+    opacity: 40%;
+}
+
+.selectedTrue {
+    background-color: khaki;
+}
+
+.grid-container {
+    background-color: Ivory;
+    width: 310px;
+    border: 1px solid rgb(180, 169, 71);
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 90px 30px 30px 30px 40px 30px;
+    padding: 6px;
+    text-align: -webkit-left;
+    row-gap: 5px;
+    column-gap: 10px;
+    font-size: 12px;
+  }

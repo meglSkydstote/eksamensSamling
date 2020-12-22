@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Yatzy</title>
+    <link rel="stylesheet" href="Yatzy.css">
+    <script src="Yatzy.js" defer></script>
+</head>
+
+<body>
+    <div>
+        <table id="diceTable">
+            <tr>
+                <td id="dice0"><img src="pic/6X.png" width="50" height="50"></td>
+                <td id="dice1"><img src="pic/6X.png" width="50" height="50"></td>
+                <td id="dice2"><img src="pic/6X.png" width="50" height="50"></td>
+                <td id="dice3"><img src="pic/6X.png" width="50" height="50"></td>
+                <td id="dice4"><img src="pic/6X.png" width="50" height="50"></td>
+            </tr>
+
+            <tr>
+                <td colspan="3" id="turn">Turn</td>
+                <td colspan="2" id="roll"><button id="RollButton" type="button">Roll</button></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="grid-container">
+        <div>1-s</div>
+        <div class="fiveArea"><input id="input0" type="text" readonly></div>
+
+        <div>2-s</div>
+        <div class="fiveArea"><input id="input1" type="text" readonly></div>
+
+        <div>3-s</div>
+        <div class="fiveArea"><input id="input2" type="text" readonly></div>
+
+        <div>4-s</div>
+        <div class="fiveArea"><input id="input3" type="text" readonly></div>
+
+        <div>5-s</div>
+        <div class="fiveArea"><input id="input4" type="text" readonly></div>
+
+        <div>6-s</div>
+        <div><input id="input5" type="text" readonly></div>
+        <div>Sum:</div>
+        <div><input id="sum" type="text" readonly></div>
+        <div>Bonus:</div>
+        <div><input id="bonus" type="text" readonly></div>
+
+        <div>One pair</div>
+        <div class="fiveArea"><input id="input6" type="text" readonly></div>
+        <div>Two pairs</div>
+        <div class="fiveArea"><input id="input7" type="text" readonly></div>
+        <div>Three same</div>
+        <div class="fiveArea"><input id="input8" type="text" readonly></div>
+        <div>Four same</div>
+        <div class="fiveArea"><input id="input9" type="text" readonly></div>
+        <div>Full house</div>
+        <div class="fiveArea"><input id="input10" type="text" readonly></div>
+        <div>Small straight</div>
+        <div class="fiveArea"><input id="input11" type="text" readonly></div>
+        <div>Large straight</div>
+        <div class="fiveArea"><input id="input12" type="text" readonly></div>
+        <div>Chance</div>
+        <div class="fiveArea"><input id="input13" type="text" readonly></div>
+        <div>Yatzy</div>
+        <div class="threeArea"><input id="input14" type="text" readonly></div>
+        <div>Total:</div>
+        <div><input id="total" type="text" readonly></div>
+    </div>
+
+    <div class="newGame"><button id="newGameButton" type="button">New Game</button></div>
+
+</body>
+
+</html>
