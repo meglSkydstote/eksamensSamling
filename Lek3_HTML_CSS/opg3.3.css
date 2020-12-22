@@ -1,0 +1,45 @@
+.grid-container {
+	display: grid;
+
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+
+	grid-template-areas:
+		"t d"
+		"g r"
+		". f";
+
+}
+
+body {
+	background-color: yellowgreen;
+}
+
+.thumbnail {
+	grid-area: t;
+}
+
+.thumbnail img {
+	max-width: 150px;
+}
+.description {
+	grid-area: d;
+}
+
+.game {
+	grid-area: g;
+}
+
+.rules {
+	grid-area: r;
+}
+
+.followup {
+	grid-area: f;
+}
+
+table, td {
+	border: 1px solid blue;
+    border-collapse: collapse;
+    padding-left: 5px;
+}

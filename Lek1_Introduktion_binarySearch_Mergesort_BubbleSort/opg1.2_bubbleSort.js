@@ -10,6 +10,7 @@ function bubbleSort(list) {
         }
     }
 }
+
 // Opgave 1.2 Lav en ny udgave af bubbleSort.js, hvor der nu sorteres på et array af tekststrenge. Hvor meget skal der ændres ?
 // Ingenting!
 

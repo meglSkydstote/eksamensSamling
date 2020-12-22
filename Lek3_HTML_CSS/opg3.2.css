@@ -1,0 +1,18 @@
+table, td {
+	background-color: rgb(10, 138, 29);
+	border: 3px solid blue;
+    border-collapse: collapse;
+    padding-left: 5px;
+}
+
+td:first-child {
+	font-size: 1em;
+}
+
+h1 {
+	color: olive;
+}
+
+body {
+	background-color: palegreen;
+}
